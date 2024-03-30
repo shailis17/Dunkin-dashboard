@@ -20,6 +20,7 @@ default_cat = drink_cats[0] if len(drink_cats) == 1 else None
 
 
 app = dash.Dash(__name__, external_stylesheets=['https://fonts.googleapis.com/css?family=Fredoka+One', 'https://fonts.googleapis.com/css?family=Fredoka','https://fonts.googleapis.com/css?family=Lato'])
+server = app.server
 
 app.layout = html.Div([
     # Header Div
