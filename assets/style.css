@@ -1,0 +1,209 @@
+/* styles.css */
+
+body {
+    font-family: 'Lato';
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Fredoka One';
+    margin: auto;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3, label {
+    font-family: 'Fredoka';
+    font-size: 14px;
+    margin: auto;
+}
+
+/* Header styles */
+.header {
+    background-color: #F9E7E5;
+    text-align: left;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+    height: 100px;
+}
+
+.title-desc {
+    margin-left: 10px;
+}
+
+.full-span {
+    background-color: #F9E7E5;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: top;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/* Box styles */
+.box-holder {
+    display: flex;
+    justify-content: space-between; /* Center the boxes horizontally */
+    align-items: center; /* Center the boxes vertically */
+    width: 98%;
+    padding: 10px;
+    margin: 0 auto; /* Center the box-holder div horizontally */
+}
+
+.box {
+    text-align: center;
+    font-size: 18px;
+    flex: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    background-color: #F9E7E5;
+    margin-right: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    background-color: #F9E7E5;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+/* Dropdowns */
+.dropdown {
+    width: 200px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add margin between dropdowns */
+    flex: 1;
+    font-size: 12px;
+    height: 18px
+}
+
+.dropdown2 {
+    width: 150px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add margin between dropdowns */
+    flex: 1;
+    font-size: 12px;
+    height: 18px
+}
+
+.bak_item_holder {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Align items at the start of the container */
+    align-items: top; /* Center items vertically */
+    padding: 10px;
+}
+
+.drink_item_holder {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items at the start of the container */
+    align-items: top; /* Center items vertically */
+    padding: 10px;
+}
+
+.drink_item {
+    justify-content: center; /* Align items at the start of the container */
+    padding: 10px;
+    display: flex;
+}
+
+.drink_item_labels_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bak_item_labels_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.label_holder{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.label {
+    flex: 1;
+}
+
+.item_label {
+    display: flex;
+    align-items: center;
+}
+
+.sizes_holder{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.color_rectangle {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.red {
+    background-color: #DC5C34;
+}
+
+.orange {
+    background-color: #E59B47;
+}
+
+.purple {
+    background-color: #822F29;
+}
+
+.pink {
+    background-color: #CA3D7D;
+}
+
+
+/* Graph styles */
+.full-span-graphs {
+    display: flex;
+    justify-content: center; /* Center the boxes horizontally */
+    align-items: center; /* Center the boxes vertically */
+    width: 99%;
+    padding: 10px;
+    margin: 0 auto; /* Center the box-holder div horizontally */
+    background-color: white;
+    margin-bottom: 20px;
+}
