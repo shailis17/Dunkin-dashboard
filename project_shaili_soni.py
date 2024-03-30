@@ -33,7 +33,7 @@ app.layout = html.Div([
                 [
                 html.H1("Nutritional Values"),  # First line of text
                 html.H2("Donuts, Drinks, and other menu items - including your customized drink orders"),  # Second line of text
-                html.H3("Get information about Calories, Calories from Fat, Total Fat, Saturated Fat, Trans Fat, Cholesterol, Sodium, Carbs, Fiber, Sugars, Protein, and Weight Watchers Points")  # Third line of text
+                html.H3("Get information about Calories, Total Fat, Saturated Fat, Cholesterol, Sodium, Carbs, Fiber, Sugars, Protein, and Weight Watchers Points")  # Third line of text
                 ],
                 className='title-desc'
             )
